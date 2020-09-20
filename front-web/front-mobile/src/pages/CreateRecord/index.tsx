@@ -14,7 +14,8 @@ const placeHolder = {
     value: null
 }
 
-const BASE_URL = 'http://192.168.15.58:8080';
+const BASE_URL = 'https://sds1-anapessamilio.herokuapp.com';
+
 
 const mapSelectValues = (games: Game[]) => {
     return games.map(game => ({
